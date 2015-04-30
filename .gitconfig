@@ -1,0 +1,13 @@
+[user]
+	name = Christian Schneider
+	email = cdschneider@wisc.edu
+[alias]
+	st = status
+	co = checkout
+	ci = commit
+	up = pull --all
+	bra = branch -a
+	brd = branch -D
+	unstage = reset HEAD
+[core]
+	editor = mate -w
