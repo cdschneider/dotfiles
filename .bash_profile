@@ -14,3 +14,5 @@ alias tomcat_clean='$TOMCAT/bin/tomcat_clean'
 alias tailtom='tail -f $TOMCAT/logs/catalina.out'
 
 export EDITOR="mate -w"
+
+function gi() { curl -L -s https://www.gitignore.io/api/$@ ;}
