@@ -13,3 +13,5 @@
 	editor = mate -w
 [push]
 	default = simple
+[apply]
+	whitespace = nowarn
