@@ -1,0 +1,1 @@
+/Users/cschneid/.bash_profile
