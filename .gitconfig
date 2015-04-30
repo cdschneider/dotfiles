@@ -11,3 +11,5 @@
 	unstage = reset HEAD
 [core]
 	editor = mate -w
+[push]
+	default = simple
