@@ -2,6 +2,7 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home
 export TOMCAT=/Library/Tomcat
 export TOMCAT_HOME=$TOMCAT
 export CATALINA_HOME=$TOMCAT
+export GROOVY_HOME=/usr/local/opt/groovy/libexec
 
 export PS1="\u \W$ "
 
