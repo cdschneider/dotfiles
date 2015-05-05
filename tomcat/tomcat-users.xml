@@ -19,7 +19,6 @@
               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
               xsi:schemaLocation="http://tomcat.apache.org/xml tomcat-users.xsd"
               version="1.0">
-  <role rolename="manager-gui"/>
-  <role rolename="manager-script"/>
-  <user username="notmyusername" password="notmypassword" roles="manager-gui,manager-script"/>
+  <role rolename="manager"/>
+  <user username="notmyusername" password="notmypassword" roles="manager"/>
 </tomcat-users>

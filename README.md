@@ -11,7 +11,7 @@ In order to invoke local tomcat server from within your project, the following p
 	<configuration>
 		<url>http://localhost:8080/manager/text</url>
 		<server>tomcat-server</server>
-		<path>/mkyongWebApp</path>
+		<path>/yourpath</path>
 	</configuration>
 </plugin>
 ```
