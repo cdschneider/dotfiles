@@ -1,3 +1,7 @@
+[core]
+	editor = mate -w
+	filemode = true
+	whitespace = indent-with-non-tab,trailing-space,space-before-tab,cr-at-eol
 [user]
 	name = Christian Schneider
 	email = cdschneider@wisc.edu
@@ -9,9 +13,18 @@
 	bra = branch -a
 	brd = branch -D
 	unstage = reset HEAD
-[core]
-	editor = mate -w
 [push]
 	default = simple
 [apply]
 	whitespace = nowarn
+[color]
+	ui = auto
+[color "branch"]
+	current = green bold ul
+	local = green
+[color "diff"]
+	new = green bold
+[color "status"]
+	added = green bold
+	changed = yellow bold
+	unmerged = red bold blink
