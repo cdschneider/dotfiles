@@ -27,4 +27,4 @@
 [color "status"]
 	added = green bold
 	changed = yellow bold
-	unmerged = red bold blink
+	unmerged = red bold reverse
