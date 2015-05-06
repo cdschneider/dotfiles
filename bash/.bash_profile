@@ -3,6 +3,9 @@ export TOMCAT=/Library/Tomcat
 export TOMCAT_HOME=$TOMCAT
 export CATALINA_HOME=$TOMCAT
 export GROOVY_HOME=/usr/local/opt/groovy/libexec
+export GOPATH=$HOME/go
+
+export PATH=$PATH:$GOPATH/bin
 
 export PS1="\u \W$ "
 
