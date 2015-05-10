@@ -20,3 +20,10 @@ alias tailtom='tail -f $TOMCAT/logs/catalina.out'
 export EDITOR="mate -w"
 
 function gi() { curl -L -s https://www.gitignore.io/api/$@ ;}
+
+echo "                  __               _     __";
+echo "  _______________/ /_  ____  ___  (_)___/ /";
+echo " / ___/ ___/ ___/ __ \/ __ \/ _ \/ / __  / ";
+echo "/ /__(__  ) /__/ / / / / / /  __/ / /_/ /  ";
+echo "\___/____/\___/_/ /_/_/ /_/\___/_/\__,_/   ";
+echo "                                           ";
