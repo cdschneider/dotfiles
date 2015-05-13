@@ -6,6 +6,7 @@ export GROOVY_HOME=/usr/local/opt/groovy/libexec
 export GOPATH=$HOME/go
 
 export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:/usr/local/opt/go/libexec/bin
 
 export PS1="\u \W$ "
 
