@@ -5,6 +5,7 @@
 [user]
 	name = Christian Schneider
 	email = cdschneider@wisc.edu
+	username = cdschneider
 [alias]
 	st = status
 	co = checkout
@@ -12,7 +13,8 @@
 	up = pull --rebase --all
 	bra = branch -a
 	brd = branch -D
-	unstage = reset HEAD
+	unstage = rm --cached
+	back = checkout -
 [push]
 	default = simple
 [apply]
@@ -27,4 +29,4 @@
 [color "status"]
 	added = green bold
 	changed = yellow bold
-	unmerged = red bold reverse
+	unmerged = red bold
